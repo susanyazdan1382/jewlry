@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"
+    ></script>
+  </head>
+  <body>
+    <header
+      x-data="{navShow : false}"
+      @scroll.window="navShow = window.scrollY > 100 ? true : false"
+    >
+      <nav
+        class="header navbar navbar-expand-lg navbar-dark fixed-top"
+        :class="{'header-scrolled' : navShow }"
+      >
+        <div class="container">
+          <img class="me-3" src="imgb/olol.jpg" alt="" width="50px" height="50px" style="border-radius: 50%;">
+
+          <a class="navbar-brand" href="#">Sun Site </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >About
+                </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="team.html"
+                  >Team
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="blog.html"
+                  >blog
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="services.html"
+                  >services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contact.html">Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="text-center text-light">About Us</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="py-5 overflow-hidden">
+      <div class="container ">
+        <div class="row  align-items-center ">
+          <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="200">
+              <img class="img-fluid" src="imgb/jewelry.jpeg" alt="" style="box-shadow: 1px 1px 2px 2px rgba(122, 97, 126, 0.756)">
+            </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="content">
+          <h3 class="text-light" style="font-size: 70px;">SUN-Site diamonds are the real deal</h3>
+          <br>
+          <br>
+          <br>
+          <br>
+         <p class="text-light" >
+          SUN site Accessories is a Premium Manufacturer of Fashion Jewelry, specializing in custom-made Jewelry & Accessories. We are confident to provide professional service to our valued customers in our fashion jewelry and accessories business. 
+
+          We offer a wide range of 925 sterling silver and stainless steel jewelry for wholesale purchase, as well as customizations including Custom Hip Hop Jewelry and Custom Religious Jewelry. Whether you prefer bold statement pieces or delicate designs, we have the expertise to create the perfect jewelry to fit your style. Trust us for high-quality, stunning pieces that will stand the test of time.
+          
+          SUN provides full-service custom jewelry manufacturing solutions; including CAD design, rapid model prototyping, metal casting, engraving, stone setting, and plating services at competitive prices.
+          
+          
+          We founded in Taiwan in 2019, is a subsidiary company of Jin Sheu Group, established in 1984. Jin Sheu Company is accredited by world customers for custom-made souvenir products and promotional giveaways. With a decade in the manufacturing business of jewelry, SUN specialized in custom-made 925 Sterling Silver, Stainless Steel, Brass/Copper, and Zinc alloy. SUN site will continue the Jin Sheu Group's philosophy and aspire to lead the market by providi
+          ng a variety of popular accessories for different ethnicities, cultures, and countries.           </p>
+        
+        </div>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+
+
+    <section class="services">
+      <div class="container">
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <h2 class="fw-bold text-light text-center">our services</h2>
+          <p class="text-light text-center">
+            SUN Fashion Accessories - A Professional Custom-made Jewelry Manufacturer          </p>
+        </div>
+        <div class="row mt-5 gy-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-md-6 col-lg-4">
+          <div class="service-box purple">
+            <i class="icon  bi-browser-edge"></i>
+            <h3 class="fw-bold mt-3">our service</h3>
+            <p>
+              Embrace Diversity with SUN Fashion Accessories' Pride Jewelry
+
+
+            </p>
+            <a class="read-more mt-5" href="">
+              <span>see more </span>
+              <i class="bi bi-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4">
+          <div class="service-box purple">
+            <i class="icon bi bi-card-checklist"></i>
+            <h3 class="fw-bold mt-3">our service</h3>
+            <p>
+              Embrace Diversity with SUN Fashion Accessories' Pride Jewelry
+            </p>
+            <a class="read-more mt-5" href="">
+              <span>see more </span>
+              <i class=" bi bi-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+    
+        <div class="col-md-6 col-lg-4">
+          <div class="service-box purple">
+            <i class="icon bi bi-person-lines-fill "></i>
+            <h3 class="fw-bold mt-3">our service</h3>
+            <p>
+              Embrace Diversity with SUN Fashion Accessories' Pride Jewelry
+            </p>
+            <a class="read-more mt-5" href="">
+              <span>see more </span>
+              <i class="bi bi-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+    
+        
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+      
+
+    <footer id="footer">
+      <div class="container">
+        <h3>SUN Site</h3>
+        <p>Shop our selection of Fine Natural Diamond Jewelry.</p>
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span> sun</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/ -->
+          Designed by <a class="text-warning" href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

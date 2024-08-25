@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"
+    ></script>
+  </head>
+  <body>
+    <header
+      x-data="{navShow : false}"
+      @scroll.window="navShow = window.scrollY > 100 ? true : false"
+    >
+      <nav
+        class="header navbar navbar-expand-lg navbar-dark fixed-top"
+        :class="{'header-scrolled' : navShow }"
+      >
+        <div class="container">
+          <img class="me-3" src="imgb/olol.jpg" alt="" width="50px" height="50px" style="border-radius: 50%;">
+
+          <a class="navbar-brand" href="#">Sun Site </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >About
+                </a>
+              </li>
+
+             
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="team.html"
+                  >Team
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="blog.html"
+                  >blog
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="services.html"
+                  >services
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contact.html">Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="intro d-flex align-items-center overflow-hidden">
+      <div class="container">
+        <div class="row align-items-center mt-5 mt-lg-0">
+          <div class="col-lg-6"></div>
+
+          <div
+            class="text-center text-light"
+            data-aos="zoom-out"
+            data-aos-delay="400"
+            class="col-lg-6"
+          >
+            <h1 class="fw-bold" style="font-size: 70px">SUN Jewelry</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 overflow-hidden">
+      <div class="container my-5">
+        <div class="row gy-5 align-items-center">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3 class="text-light">WELLCOM TO SUN SITE.</h3>
+              <h2 class="fw-bold mt-2 text-light">
+                Quality & Design
+                We are committed to providing a wide selection of Stylish Fashion Jewelry and Accessories th
+                at best express your unique personality. Customized designs are warmly welcome as well.
+              </h2>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="zoom-out" data-aos-delay="200">
+            <img class="img-fluid" src="imgb/c3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features py-5 overflow-hidden">
+      <div class="container">
+        <div class="row gy-3" data-aos="fade-up" data-aos-delay="400">
+          <h4 class="mb-5 text-light d-flex justify-content-center">
+            sun site jewelry 
+          </h4>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 my-4">
+            <img
+              class="img-fluid"
+              src="imgb/uhttttt.jpeg"
+              alt=""
+              style="
+                border-radius: 5%;
+                box-shadow: 2px 1px 5px 5px rgba(110, 138, 132, 0.479);
+              "
+            />
+            <!-- <img class="img-fluid" src="imgb/lpo.webp" alt="" > -->
+          </div>
+          <div class="col-lg-8">
+            <div class="row gy-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      always updates the status of an order, has good communication and understands your needs 
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      Budgeting increases profit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      jewelry making, and custom packaging material to save your time
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      choices of different shipping companies to get a good rate of the shipp
+                      ing cost for delivery in order to reduce shipping costs for customers
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      This is the best product that a company can share to there
+                      customer
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      This is the best product that a company can share to there
+                      customer
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      We are confident to provide professional service to our valued customers in our fashion jewelry and accessories business. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      This is the best product that a company can share to there
+                      customer
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      This is the best product that a company can share to there
+                      customer
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="d-flex">
+                  <i class="bi bi-chevron-right"></i>
+                  <div>
+                    <h5 class="text-light">new product</h5>
+                    <p class="text-light">
+                      This is the best product that a company can share to there
+                      customer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <h3>SUN Site</h3>
+        <p>Shop our selection of Fine Natural Diamond Jewelry.</p>
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span> sun</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/ -->
+          Designed by <a class="text-warning" href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
